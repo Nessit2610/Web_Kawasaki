@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* Reset css */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.test-hover:hover {
+	border: 1px solid #198754 !important; 
+	background-color: #198754 !important; 
+	color: #fff !important;
+}
+.dropdown-menu.show {
+			    display: flex;
+			}
+.loaixe:hover {
+	background: none;
+}
+.drop-text::before {
+	content: "";
+	display:block;
+	width: 10px;
+	height: 10px;
+	background-color: transparent;
+	border-left: 2px solid #b2b2b8;
+    border-top: 2px solid #b2b2b8;
+    position: relative;
+    top: 18px;
+    left: -14px;
+}
+.drop-text::after {
+	content: "";
+	display:block;
+	width: 10px;
+	height: 10px;
+	background-color: transparent;
+	border-right: 2px solid #b2b2b8;
+    border-top: 2px solid #b2b2b8;
+    position: relative;
+    top: -9px;
+ 	left: 151px;
+}
+.drop-text1::before {
+	content: "";
+    display: block;
+    width: 53px;
+    height: 10px;
+    background-color: transparent;
+    border-left: 2px solid #b2b2b8;
+    border-top: 2px solid #b2b2b8;
+    position: relative;
+    top: 18px;
+    left: 3px; 
+}
+.drop-text1::after {
+	    content: "";
+	    display: block;
+	    width: 53px;
+	    height: 10px;
+	    background-color: transparent;
+	    border-right: 2px solid #b2b2b8;
+	    border-top: 2px solid #b2b2b8;
+	    position: relative;
+	    top: -8px;
+	    left: 130px;
+}
+.drop-text2::before {
+	    content: "";
+	    display: block;
+	    width: 17px;
+	    height: 10px;
+	    background-color: transparent;
+	    border-left: 2px solid #b2b2b8;
+	    border-top: 2px solid #b2b2b8;
+	    position: relative;
+	    top: 18px;
+	    left: 0px;
+}
+
+.drop-text2::after {
+	    content: "";
+	    display: block;
+	    width: 17px;
+	    height: 10px;
+	    background-color: transparent;
+	    border-right: 2px solid #b2b2b8;
+	    border-top: 2px solid #b2b2b8;
+	    position: relative;
+	    top: -9px;
+	    left: 73px;
+
+}
+.drop-text3::before {
+	content: "";
+	display:block;
+	width: 10px;
+	height: 10px;
+	background-color: transparent;
+	border-left: 2px solid #b2b2b8;
+    border-top: 2px solid #b2b2b8;
+    position: relative;
+    top: 18px;
+    left: -13px;
+}
+
+.drop-text3::after {
+	content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-right: 2px solid #b2b2b8;
+    border-top: 2px solid #b2b2b8;
+    position: relative;
+    top: -9px;
+    left: 162px;
+}
+.div-border::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 107px;
+    background-color: #e5e5e9;
+    position: relative;
+    left: 181px;
+    bottom: 92px;
+}	
+.div-border1::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 107px;
+    background-color: #e5e5e9;
+    position: relative;
+    left: 214px;
+    bottom: 92px;
+}	
+.div-border2::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 107px;
+    background-color: #e5e5e9;
+    position: relative;
+    left: 110px;
+    bottom: 92px;
+}
+.divlist{
+	top: 140%;
+	left: -367px;
+	min-width: 1381px;
+	background-color: #ccc; 
+	height: 110px;
+}
+.styletext{
+	font-weight: 900;
+	font-family: Calibri;
+	color: #454548;
+}
+.styletext2{
+	font-weight: 900;
+	font-family: Calibri;
+	color: #454548;
+	font-size: 20px;
+}
+
+.footer-items {
+	margin: 50px 10px 8px 20px;
+    width: 500px;
+    height: 100px;
+}
+
+.footer-text {
+	font-size: 23px; 
+	line-height: 32px;
+	font-weight: bold;
+}
+
+.footer-des {
+	font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #fff;
+}
+
+.seperate::after {
+	content: "";
+	display:block;
+	width: 500px;
+	height: 10px;
+	background-color: transparent;
+	border-bottom: 1px solid #454548;
+    position: relative;
+	top: 3px;
+    left: -2px;
+}
+
+.footer-infor {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #000;
+	width: 100%;
+	height: 76px;
+}
+
+.footer-infor__text {
+    font-weight: 400;
+    font-size: 13px;
+    margin: 0px 32px
+}
+
+.footer-infor-icon {
+	margin-right: 40px;
+    font-size: 20px;
+}
+
+.detail {
+	height: 30px;
+    padding: 0 4px;
+    border: 1px solid #198754;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #198754;
+}
+
+.detail:hover {
+	border: 1px solid #198754; 
+	background-color: #198754; 
+	color: #fff;
+}
+.stylegiaban{
+	font-family: Calibri;
+	color: #454548;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
